@@ -1,0 +1,24 @@
+## Logs
+**/logs
+**/*.log*
+
+## Editor files
+.vscode
+.DS_Store
+
+## All temporary files
+temp*
+
+## Environment files (except the sample)
+*.env
+!sample.env
+
+## NPM dependencies
+**/node_modules
+
+## Test coverage
+**/.nyc_output
+**/coverage
+
+## Google Action files
+creds.data
